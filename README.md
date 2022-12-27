@@ -87,5 +87,5 @@ exe = EXE(
 Then run:
 ```
 !pip install pyinstaller
-!cd Multi* && pyinstaller my.spec
+!cd Multi-Camera-Person-Tracking-and-Re-Identification && pyinstaller my.spec
 ```
