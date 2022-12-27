@@ -14,6 +14,7 @@ drive.mount('/content/drive')
 !cp yolov3.h5 Multi-Camera-Person-Tracking-and-Re-Identification/model_data/models
 !cp yolov4.h5 Multi-Camera-Person-Tracking-and-Re-Identification/model_data/models
 !cd Multi-Camera-Person-Tracking-and-Re-Identification && python demo.py --videos videos/init/Double1.mp4 videos/init/Single1.mp4 --version v3
+!ls -s Multi-Camera-Person-Tracking-and-Re-Identification/videos/output/
 ```
 
 To debugging at each commit run:
@@ -24,4 +25,11 @@ To debugging at each commit run:
 !cp yolov3.h5 Multi-Camera-Person-Tracking-and-Re-Identification/model_data/models
 !cp yolov4.h5 Multi-Camera-Person-Tracking-and-Re-Identification/model_data/models
 !cd Multi-Camera-Person-Tracking-and-Re-Identification && python demo.py --videos videos/init/Double1.mp4 videos/init/Single1.mp4 --version v3
+!ls -s Multi-Camera-Person-Tracking-and-Re-Identification/videos/output/
+```
+
+Finally run:
+```
+from google.colab import files
+files.download('Multi-Camera-Person-Tracking-and-Re-Identification/videos/output/Complete.avi')
 ```
