@@ -4,7 +4,7 @@ private quick run https://github.com/marzban2030/Multi-Camera-Person-Tracking-an
 Run below commands in Colab:
 ```
 !git clone https://github.com/marzban2030/Multi-Camera-Person-Tracking-and-Re-Identification
-pip install -r Multi-Camera-Person-Tracking-and-Re-Identification/requirements.txt
+!pip install -r Multi-Camera-Person-Tracking-and-Re-Identification/requirements.txt
 from google.colab import drive
 drive.mount('/content/drive')
 !cp /content/drive/MyDrive/File.rar .
