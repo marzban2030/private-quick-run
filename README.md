@@ -101,10 +101,10 @@ Create work dir by running:
 
 To executing run:
 ```
-!cd work && ./demo --videos video1.mp4  video2.mp4 videos3.mp4 ... videoN.mp4 --version v3
+!cd work && ./demo --videos video1.mp4  video2.mp4 video3.mp4 ... videoN.mp4 --version v3
 ```
 
 Or run:
 ```
-!cd work && ./demo --videos video1.mp4  video2.mp4 videos3.mp4 ... videoN.mp4
+!cd work && ./demo --videos video1.mp4  video2.mp4 video3.mp4 ... videoN.mp4
 ```
