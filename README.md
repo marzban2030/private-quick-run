@@ -89,3 +89,22 @@ Then run:
 !pip install pyinstaller
 !cd Multi-Camera-Person-Tracking-and-Re-Identification && pyinstaller my.spec
 ```
+
+Create work dir by running:
+```
+!cp Multi-Camera-Person-Tracking-and-Re-Identification/dist/demo work/
+!cp -r Multi-Camera-Person-Tracking-and-Re-Identification/model_data work/
+!cd work && mkdir videos
+!cd work/videos && mkdir output
+!chmod -c 755 work/demo
+```
+
+To executing run:
+```
+!cd work && ./demo --videos Double1.mp4  Single1.mp4 --version v3
+```
+
+Or run:
+```
+!cd work && ./demo --videos Double1.mp4  Single1.mp4
+```
