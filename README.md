@@ -92,6 +92,7 @@ Then run:
 
 Create work dir by running:
 ```
+!mkdir work
 !cp Multi-Camera-Person-Tracking-and-Re-Identification/dist/demo work/
 !cp -r Multi-Camera-Person-Tracking-and-Re-Identification/model_data work/
 !cd work && mkdir videos
