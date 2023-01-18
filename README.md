@@ -34,7 +34,7 @@ from google.colab import files
 files.download('Multi-Camera-Person-Tracking-and-Re-Identification/videos/output/Complete.avi')
 ```
 
-If you want to building single executable file run:
+If you want to building single executable file run (If you want to target Arm64 set `target_arch='arm64'` in below codes):
 ```
 %%writefile Multi-Camera-Person-Tracking-and-Re-Identification/my.spec
 # -*- mode: python ; coding: utf-8 -*-
